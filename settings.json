@@ -1,0 +1,76 @@
+﻿{
+  "Settings": {
+    "VersionToInstall": "v3.7",
+    "Çlients": [
+      { //SERBIA STAGE
+        "Enabled": false,
+        "BackupLocation": "E:\\Application\\Backup\\",
+        "ReleasePackageLocation": "E:\\Downloads\\ReleasePackages",
+        "Services": [
+          {
+            "Name": "MainApi",
+            "Enabled": true,
+            "Location": "E:\\Application\\Api",
+            "AppPool": "Intelisale.Api"
+          },
+          {
+            "Name": "Reporting",
+            "Enabled": true,
+            "Location": "E:\\Application\\Reporting",
+            "AppPool": "Intelisale.Reporting"
+          },
+          {
+            "Name": "Verification",
+            "Enabled": false,
+            "Location": "E:\\Application\\Verification",
+            "AppPool": "Intelisale.Verification"
+          },
+          {
+            "Name": "UserService",
+            "Enabled": true,
+            "Location": "E:\\Application\\UserService",
+            "AppPool": "Intelisale.UserService"
+          }
+        ]
+      },
+      { //SLOVENIA STAGE
+        "Enabled": true,
+        "BackupLocation": "E:\\Games\\Bac",
+        "ReleasePackageLocation": "E:\\Downloads\\ReleasePackages",
+        "Services": [
+          {
+            "Name": "MainApi",
+            "Enabled": true,
+            "Location": "E:\\Application\\Api",
+            "AppPool": "Intelisale.Api"
+          },
+          {
+            "Name": "Reporting",
+            "Enabled": true,
+            "Location": "E:\\Application\\Reporting",
+            "AppPool": "Intelisale.Reporting"
+          },
+          {
+            "Name": "Verification",
+            "Enabled": true,
+            "Location": "E:\\Application\\Verification",
+            "AppPool": "Intelisale.Verification"
+          },
+          {
+            "Name": "UserService",
+            "Enabled": true,
+            "Location": "E:\\Application\\UserService",
+            "AppPool": "Intelisale.UserService"
+          },
+          {
+            "Name": "UserService",
+            "Enabled": true,
+            "Location": "E:\\Application\\UserService",
+            "AppPool": "Intelisale.UserService"
+          }
+        ]
+      }
+    ]
+  }
+}
+
